@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Anatolii Velichko <velichko.vega@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}

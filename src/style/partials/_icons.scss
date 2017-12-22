@@ -1,0 +1,60 @@
+.icon{
+  display: inline-block;
+
+  &.icon-service1{
+    @include sprite($icon-png6);
+  }
+  &.icon-service2{
+    @include sprite($icon-png7);
+  }
+  &.icon-service3{
+    @include sprite($icon-png8);
+  }
+  &.icon-service4{
+    @include sprite($icon-png9);
+  }
+  &.icon-service5{
+    @include sprite($icon-png10);
+  }
+  &.icon-service6{
+    @include sprite($icon-png11);
+  }
+  &.icon-service7{
+    @include sprite($icon-png12);
+  }
+  &.icon-service8{
+    @include sprite($icon-png13);
+  }
+  &.icon-service9{
+    @include sprite($icon-png14);
+  }
+  &.icon-service10{
+    @include sprite($icon-png15);
+  }
+  &.icon-service11{
+    @include sprite($icon-png16);
+  }
+  &.icon-service12{
+    @include sprite($icon-png17);
+  }
+  &.icon-service13{
+    @include sprite($icon-png18);
+  }
+  &.icon-service14{
+    @include sprite($icon-png19);
+  }
+  &.icon-facebook{
+    @include sprite($icon-png22);
+  }
+  &.icon-instagram{
+    @include sprite($icon-png23);
+  }
+  &.icon-phone{
+    @include sprite($icon-png20);
+  }
+  &.icon-letter{
+    @include sprite($icon-png21);
+  }
+
+
+}

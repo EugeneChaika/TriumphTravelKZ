@@ -1,0 +1,84 @@
+.footer{
+  background-color: #8E98A7;
+  padding-top: 90px;
+  font-size: 18px;
+  color: #E8E8E8;
+  @media (min-width: 1700px){
+    .container {
+      width: 1640px;
+    }
+  }
+  &__logo{
+    width: 173px;
+    height: 65px;
+    margin-bottom: 15px;
+  }
+  &__nav{
+    &__item{
+      display: block;
+      a{
+        color: #E8E8E8;
+        font-size: 18px;
+      }
+    }
+  }
+  &__btn{
+    display: block;
+    font-size: 20px;
+    font-family: 'gotham pro';
+    font-weight: 500;
+    padding: 10px 33px;
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 200px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+  }
+  .contact{
+    input{
+
+    }
+  }
+  .description{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  input{
+    width: 100%;
+    border-radius: 8px;
+    border: 0px;
+    padding: 11px 20px;
+  }
+  .icon-block{
+    display: inline-block;
+    align-items: center;
+    padding-right: 44px;
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+  a{
+    color: #E8E8E8;
+    font-size: 18px;
+  }
+  .rights{
+    vertical-align: bottom;
+    margin-bottom: 55px;
+  }
+  .input-block{
+    margin-bottom: 27px;
+    &--icon{
+      position: relative;
+      .icon-block{
+        position: absolute;
+        top: 0;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        right: 12px;
+      }
+    }
+  }
+}

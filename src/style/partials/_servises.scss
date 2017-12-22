@@ -1,0 +1,44 @@
+.servises{
+  padding-top: 45px;
+  text-align: center;
+  &__title{
+    font-family: "RobotoSlab-bold";
+    font-size: 48px;
+    color: #333366;
+    margin-bottom: 115px;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // align-items: baseline;
+    padding: 0 160px;
+    margin-bottom: 30px;
+  }
+  &__item{
+    margin: 0 5px 120px;
+    // text-align: center;
+  }
+  &__name{
+    padding-top: 20px;
+    font-family: "gotham pro";
+    font-size: 20px;
+    font-weight: 500;
+    color: #333366;
+    width: 210px;
+  }
+  .icon-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 210px;
+    height: 100px;
+
+  }
+}
+/////
+@media (max-width: 1100px){
+  .servises__list{
+    padding: 0;
+  }
+}

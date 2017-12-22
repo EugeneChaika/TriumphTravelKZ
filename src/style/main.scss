@@ -1,0 +1,96 @@
+@import "partials/_vars";
+@import "../../bower_components/normalize.css/normalize.css";
+@import "partials/_fonts";
+@import "partials/_libs";
+@import "partials/_vars";
+@import "partials/_header";
+@import "partials/_start";
+@import "partials/_hottours";
+@import "partials/_servises";
+@import "partials/_footer";
+@import "_sprite";
+@import "partials/_icons";
+@import "partials/_booking-tours";
+
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before, &:after{
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  }
+}
+
+*::-webkit-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+*:-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+*::-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+  color: #666;
+}
+body input:required:valid,
+body textarea:required:valid{
+	color: #666;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	font-family: $default-font;
+	overflow-x: hidden;
+	opacity: 1;
+}
+
+// ==================================--STYLES--==================================
+ul{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+li{
+	display: inline-block;
+}
+a:focus, a:hover{
+  text-decoration: none;
+}
+a{
+	color: white;
+}
+%btn{
+	display: inline-block;
+}
+.mouse{
+  width: 32px;
+  height: 62px;
+  margin: 0 auto;
+}
+
+// ==================================--STYLES-END--==================================
+
+@import "partials/_media"; // Всегда в конце
