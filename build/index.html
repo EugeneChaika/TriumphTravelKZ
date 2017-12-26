@@ -7,7 +7,7 @@
     <title>Test task</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header container">
       <div class="header__down">
         <div class="header__logo">
           <a href="#">
@@ -28,38 +28,22 @@
       </div>
       <div class="header__top">
         <div class="header__phones">
-          <div class="header__phones__item">+7 (7172) 688 648</div>
+          <div class="header__phones__item">+7 717 268 86 48</div>
           <div class="header__phones__item">+7 775 713 60 72</div>
         </div>
-        <div class="header__ask">
-          <a href="#" class="header__ask__btn">Задать вопрос</a>
-        </div>
-        <div class="header__language">
-          <a href="#" class="header__language__btn"><img src="img/basic_world.svg" alt="language-btn"></a>
+        <div class="interact">
+          <div class="header__ask">
+            <a href="#" class="header__ask__btn">Задать вопрос</a>
+          </div>
+          <div class="header__language">
+            <a href="#" class="header__language__btn">
+              <div class="icon-block">
+                <i class="icon icon-language"></i>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-      <!-- <div class="hamburger">
-        <ul class="header__nav__list">
-          <li class="header__nav__item"><a href="#">Главная</a></li>
-          <li class="header__nav__item"><a href="#">О нас</a></li>
-          <li class="header__nav__item"><a href="#">Услуги</a></li>
-          <li class="header__nav__item"><a href="#">Авиабилеты</a></li>
-          <li class="header__nav__item"><a href="#">Туры</a></li>
-          <li class="header__nav__item"><a href="#">Партнерство</a></li>
-          <li class="header__nav__item"><a href="#">Контакты</a></li>
-        </ul>
-        <div class="header__phones">
-          <div class="header__phones__item">+7 (7172) 688 648</div>
-          <div class="header__phones__item">+7 775 713 60 72</div>
-        </div>
-        <div class="header__ask">
-          <a href="#" class="header__ask__btn">Задать вопрос</a>
-        </div>
-        <div class="header__language">
-          <a href="#" class="header__language__btn"><img src="img/basic_world.svg" alt="language-btn"></a>
-        </div>
-        </ul>
-      </div> -->
       <button class="hamburger">menu &#9776;</button>
       <button class="cross">&#735;</button>
     
@@ -76,111 +60,121 @@
       </div>
     </div>
     <section class="start">
-      <div class="start__logo">
-        <img src="img/logo_square.svg" alt="logoimg">
-      </div>
-      <div class="start__description">
-        <span>ТУРИСТИЧЕСКОЕ АГЕНСТВО, КАЗАХСТАН </span>
-      </div>
-      <div class="start__title">
-        <span>Путешествие это счастье - купите его сейчас!</span>
-      </div>
-      <div class="start__tour">
-        <!-- <span>Поиск туров из Астаны</span> -->
-        <div>
-          <section id="booking-tours">
-    				<div class="container">
-    					<script type="text/javascript" src="//ui.sletat.ru/module-5.0/app.js" charset="utf-8"></script>
-    					<script type="text/javascript">sletat.createModule5('Search', {
-    					  city              : 1323,
-    					  files             : ["//ui.sletat.ru/module-5.0/theme/broccoli.min.css"],
-    					  currency          : "KZT",
-    					  agencyContact1    : {
-    						logo            : "http://t-travel.kz/wp-content/themes/ttravel/img/logo.svg",
-    						header          : "TRIUMPH SAT GROUP TRAVEL",
-    						phone           : "+77172688648, +77757136072",
-    						email           : "TOUR@TRIUMPHTRAVEL.KZ, INFO@TRIUMPHTRAVEL.KZ, TSE@TRIUMPHTRAVEL.KZ"
-    					  },
-    					  enabledCurrencies : ["EUR", "USD", "KZT"],
-    					  useCard           : false
-    					});</script>
-    					<span class="sletat-copyright">Идет загрузка модуля <a href="http://sletat.ru/" title="поиск туров" target="_blank">поиска туров</a> &hellip;</span>
-    				</div>
-    			</section>
+        <div class="container">
+            <div class="start__logo">
+                <img src="img/logo_square.svg" alt="logoimg">
+            </div>
+            <div class="start__description">
+                <span>ТУРИСТИЧЕСКОЕ АГЕНСТВО, КАЗАХСТАН </span>
+            </div>
+            <div class="start__title">
+                Путешествие это счастье<span> - купите его сейчас!</span>
+            </div>
+            <div class="start__tour">
+                <!-- <span>Поиск туров из Астаны</span> -->
+                <div>
+                    <section id="booking-tours">
+                        <div class="container">
+                            <script type="text/javascript" src="//ui.sletat.ru/module-5.0/app.js" charset="utf-8"></script>
+                            <script type="text/javascript">sletat.createModule5('Search', {
+                                city              : 1323,
+                                files             : ["//ui.sletat.ru/module-5.0/theme/broccoli.min.css"],
+                                currency          : "KZT",
+                                agencyContact1    : {
+                                    logo            : "http://t-travel.kz/wp-content/themes/ttravel/img/logo.svg",
+                                    header          : "TRIUMPH SAT GROUP TRAVEL",
+                                    phone           : "+77172688648, +77757136072",
+                                    email           : "TOUR@TRIUMPHTRAVEL.KZ, INFO@TRIUMPHTRAVEL.KZ, TSE@TRIUMPHTRAVEL.KZ"
+                                },
+                                enabledCurrencies : ["EUR", "USD", "KZT"],
+                                useCard           : false
+                            });</script>
+                            <span class="sletat-copyright">Идет загрузка модуля <a href="http://sletat.ru/" title="поиск туров" target="_blank">поиска туров</a> &hellip;</span>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="mouse">
+                <img src="img/mouse.png" alt="">
+            </div>
         </div>
-      </div>
-      <div class="mouse">
-        <img src="img/mouse.png" alt="">
-      </div>
     </section>
     <section class="hottours">
-      <div class="hottours__title">
-        <span>Горящие туры</span>
-      </div>
-      <div class="hottours__cards">
-        <a href="">
-          <div class="hottours__card">
-            <div class="hottours__photo" style="background-image: url(../img/card1.png);">
-            </div>
-            <div class="hottours__info">
-              <div class="hottours__name">
-                <div class="hottours__price">
-                  <span>от 253 т. КЗТ</span>
-                </div>
-                <span>Гранд тур по Италии + Париж</span>
-              </div>
-              <div class="hottours__location">
-                <span>Италия, Франция</span>
-              </div>
-              <div class="hottours__date">
-                <span>22.10.2016 - 22.10.2017</span>
-              </div>
-            </div>
+      <div class="container">
+          <div class="hottours__title">
+              <span>Горящие туры</span>
           </div>
-        </a>
-        <a href="">
-          <div class="hottours__card">
-            <div class="hottours__photo" style="background-image: url(../img/card2.png);">
-            </div>
-            <div class="hottours__info">
-              <div class="hottours__name">
-                <div class="hottours__price">
-                  <span>от 253 т. КЗТ</span>
-                </div>
-                <span>Гранд тур по Италии + Париж</span>
-              </div>
-              <div class="hottours__location">
-                <span>Италия, Франция</span>
-              </div>
-              <div class="hottours__date">
-                <span>22.10.2016 - 22.10.2017</span>
-              </div>
-            </div>
+          <div class="hottours__cards">
+    
+                  <a href="">
+                      <div class="hottours__card">
+                          <div class="hottours__photo" style="background-image: url(../img/card1.png);">
+                          </div>
+                          <div class="hottours__info">
+                              <div class="hottours__name">
+                                  <div class="hottours__price">
+                                      <span>от 253 т. КЗТ</span>
+                                  </div>
+                                  <span>Гранд тур по Италии + Париж</span>
+                              </div>
+                              <div class="hottours__location">
+                                  <span>Италия, Франция</span>
+                              </div>
+                              <div class="hottours__date">
+                                  <span>22.10.2016 - 22.10.2017</span>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+    
+    
+                  <a href="">
+                      <div class="hottours__card">
+                          <div class="hottours__photo" style="background-image: url(../img/card2.png);">
+                          </div>
+                          <div class="hottours__info">
+                              <div class="hottours__name">
+                                  <div class="hottours__price">
+                                      <span>от 253 т. КЗТ</span>
+                                  </div>
+                                  <span>Гранд тур по Италии + Париж</span>
+                              </div>
+                              <div class="hottours__location">
+                                  <span>Италия, Франция</span>
+                              </div>
+                              <div class="hottours__date">
+                                  <span>22.10.2016 - 22.10.2017</span>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+    
+    
+                  <a href="">
+                      <div class="hottours__card">
+                          <div class="hottours__photo" style="background-image: url(../img/card3.png);">
+                          </div>
+                          <div class="hottours__info">
+                              <div class="hottours__name">
+                                  <div class="hottours__price">
+                                      <span>от 253 т. КЗТ</span>
+                                  </div>
+                                  <span>Гранд тур по Италии + Париж</span>
+                              </div>
+                              <div class="hottours__location">
+                                  <span>Италия, Франция</span>
+                              </div>
+                              <div class="hottours__date">
+                                  <span>22.10.2016 - 22.10.2017</span>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+    
           </div>
-        </a>
-        <a href="">
-          <div class="hottours__card">
-            <div class="hottours__photo" style="background-image: url(../img/card3.png);">
-            </div>
-            <div class="hottours__info">
-              <div class="hottours__name">
-                <div class="hottours__price">
-                  <span>от 253 т. КЗТ</span>
-                </div>
-                <span>Гранд тур по Италии + Париж</span>
-              </div>
-              <div class="hottours__location">
-                <span>Италия, Франция</span>
-              </div>
-              <div class="hottours__date">
-                <span>22.10.2016 - 22.10.2017</span>
-              </div>
-            </div>
+          <div class="mouse">
+              <img src="img/mouse.png" alt="">
           </div>
-        </a>
-      </div>
-      <div class="mouse">
-        <img src="img/mouse.png" alt="">
       </div>
     </section>
     <section class="servises">
@@ -316,13 +310,16 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-3">
-            <span>г. Астана</span><br>
-            <span>+7 (7172) 688 648</span><br>
-            <span>+7 775 713 60 72</span><br>
-            <span>info@triumphtravel.kz</span><br>
+          <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-xs-12">
+            <div class="address">
+              <span>г. Астана</span><br>
+              <span>пр. Кабанбай Батыра, 13</span><br>
+              <span>+7 (7172) 688 648</span><br>
+              <span>+7 775 713 60 72</span><br>
+              <span>info@triumphtravel.kz</span><br>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <div class="footer__nav">
               <ul class="footer__nav__list">
                 <li class="footer__nav__item"><a href="#">Главная</a></li>
@@ -333,7 +330,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-1 col-md-2">
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-3">
             <div class="footer__nav">
               <ul class="footer__nav__list">
                 <li class="footer__nav__item"><a href="#">Партнерство</a></li>
@@ -341,12 +338,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-offset-1 col-lg-1 col-md-2 ">
-            <span>Languages:</span>
-            <a href="#">English</a>
-            <a href="#">Русский</a>
+          <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-xs-12">
+            <div class="languages">
+              <span>Languages:</span>
+              <a href="#">English</a>
+              <a href="#">Русский</a>
+            </div>
           </div>
-          <div class="col-lg-offset-2 col-lg-3 col-md-8">
+          <div class="col-xl-3 offset-xl-1 offset-lg-1 col-lg-3 col-md-12 col-sm-12 col-xs-12">
             <div class="contact">
               <div class="description">
                 Напишите ваш вопрос и мы свяжемся с вами в ближайшее время.
@@ -371,23 +370,25 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-8">
-            <div class="icon-block">
-              <a href="#"><i class="icon icon-facebook"></i></a>
-            </div>
-            <div class="icon-block">
-              <a href="#"><i class="icon icon-instagram"></i></a>
-            </div>
-            <div class="icon-block">
-              <a href="#"><i class="icon icon-instagram"></i></a>
-            </div>
-            <div class="icon-block">
-              <a href="#"><i class="icon icon-instagram"></i></a>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="social">
+              <div class="icon-block">
+                <a href="#"><i class="icon icon-facebook"></i></a>
+              </div>
+              <div class="icon-block">
+                <a href="#"><i class="icon icon-instagram"></i></a>
+              </div>
+              <div class="icon-block">
+                <a href="#"><i class="icon icon-instagram"></i></a>
+              </div>
+              <div class="icon-block">
+                <a href="#"><i class="icon icon-instagram"></i></a>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-offset-8 col-lg-4 col-md-8">
+          <div class="col-xl-6 offset-xl-6 offset-lg-6 col-lg-6 col-md-12 col-sm-12">
             <div class="rights">
               <span>© TRIUMPH TRAVEL 2018–2019   info@t-travel.kz</span>
             </div>

@@ -1,21 +1,27 @@
 {
-  "name": "test",
-  "description": "",
-  "main": "gulpfile.js",
+  "name": "pachages for sally",
+  "description": "My first gulp using",
+  "main": "index.js",
   "authors": [
-    "Anatolii Velichko <velichko.vega@gmail.com>"
+    "Roman Klimov"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/KlimKREMEN/sally-static",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "app/libs/",
+    "app/libs",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "normalize.css": "*",
-    "jquery": "2.*"
+  "devDependencies": {
+    "jquery": "^3",
+    "OwlCarousel2": "^2",
+    "components-font-awesome": "^4.7.0",
+    "bootstrap": "v4.0.0-alpha.6",
+    "seiyria-bootstrap-slider": "^9.9.0"
   }
 }

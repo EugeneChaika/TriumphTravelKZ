@@ -1,6 +1,9 @@
 .icon{
   display: inline-block;
 
+  &.icon-language{
+    @include sprite($icon-png3);
+  }
   &.icon-service1{
     @include sprite($icon-png6);
   }
