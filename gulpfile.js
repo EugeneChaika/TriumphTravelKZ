@@ -23,21 +23,24 @@ var path = {
         js: 'build/js/',
         css: 'build/css/',
         img: 'build/img/',
-        fonts: 'build/fonts/'
+        fonts: 'build/fonts/',
+        video: 'build/video/'
     },
     src: { //Пути откуда брать исходники
         html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
         js: 'src/js/main.js',//В стилях и скриптах нам понадобятся только main файлы
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*', //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
-        fonts: 'src/fonts/**/*.*'
+        fonts: 'src/fonts/**/*.*',
+        video: 'src/video/**/*.*'
     },
     watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
         html: 'src/**/*.html',
         js: 'src/js/**/*.js',
         style: 'src/style/**/*.scss',
         img: 'src/img/**/*.*',
-        fonts: 'src/fonts/**/*.*'
+        fonts: 'src/fonts/**/*.*',
+        video: 'src/video/**/*.*'
     },
     clean: './build'
 };
@@ -98,12 +101,19 @@ gulp.task('image:build', function () {
         .pipe(browserSync.reload({stream: true}))
 });
 
+gulp.task('video:build', function () {
+    gulp.src(path.src.video) //Выберем наши картинки
+        .pipe(gulp.dest(path.build.video)) //И бросим в build
+        .pipe(browserSync.reload({stream: true}))
+});
+
 gulp.task('build', [
     'html:build',
     'js:build',
     'style:build',
     'fonts:build',
-    'image:build'
+    'image:build',
+    'video:build'
 ]);
 
 gulp.task('watch', function(){
@@ -119,6 +129,9 @@ gulp.task('watch', function(){
     });
     gulp.watch([path.watch.img], function(event, cb) {
         gulp.start('image:build');
+    });
+    gulp.watch([path.watch.video], function(event, cb) {
+        gulp.start('video:build');
     });
     gulp.watch([path.watch.fonts], function(event, cb) {
         gulp.start('fonts:build');

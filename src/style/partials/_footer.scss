@@ -21,7 +21,7 @@
         font-size: 18px;
         transition: ease .3s;
         &:hover{
-          color: #23527c;
+          color: #ffdc8c;
         }
       }
     }
@@ -46,20 +46,31 @@
       background-color: #E8E8E8;
     }
   }
-  .contact{
-    input{
-
-    }
-  }
+  //.contact{
+  //  input{
+  //
+  //  }
+  //}
   .description{
     margin-bottom: 15px;
     text-align: center;
   }
   input{
+    &::-webkit-contacts-auto-fill-button {
+      visibility: hidden;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+    }
+    transition: ease .3s;
     width: 100%;
     border-radius: 8px;
-    border: 0px;
+    border: 2px solid transparent;
+    outline: none;
     padding: 11px 20px;
+    &:focus{
+      border: 2px solid #ffdc8c;
+    }
   }
   .social{
     .icon-block{
@@ -100,7 +111,7 @@
     &>a{
       transition: ease .3s;
       &:hover{
-        color: #23527c;
+        color: #ffdc8c;
       }
     }
   }
