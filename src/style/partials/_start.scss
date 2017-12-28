@@ -6,6 +6,7 @@
   position: relative;
   padding-top: 120px;
   //z-index: 2;
+  overflow-x: hidden;
   &::after {
     content: '';
     position: absolute;
@@ -27,7 +28,8 @@
     height: auto;
     z-index: -2;
     transform: translateX(-50%) translateY(-50%);
-    //background: url('../../video/CastAway/CastAway.jpg') no-repeat;
+    background: url('../../video/CastAway/CastAway.jpg') no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     transition: 1s opacity;
   }
@@ -49,7 +51,7 @@
     margin: auto;
     margin-bottom: 35px;
     color: white;
-    font-family: "gotham pro";
+    font-family: "GothamPro-Medium";
     font-weight: 400;
     font-size: 20px;
     text-transform: uppercase;

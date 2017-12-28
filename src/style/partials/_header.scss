@@ -37,13 +37,13 @@
     &__item{
       position: relative;
       font-size: 18px;
-      font-family: 'gotham pro';
+      font-family: 'GothamPro-Medium';
       font-weight: 500;
       &:after{
         content: '';
         display: inline-block;
-        width: 10px;
-        height: 10px;
+        width: 8px;
+        height: 8px;
         margin: 0 10px;
         background-color: #B2985E;
         border-radius: 100%;
@@ -53,10 +53,10 @@
         display: none;
       }
       a{
-        transition: all ease .6s;
+        transition: all ease .2s;
         position: relative;
         &:before{
-          transition: all ease .6s;
+          transition: all ease .2s;
           position: absolute;
           bottom: -15px;
           right: 0;
@@ -80,6 +80,7 @@
     font-size: 20px;
     font-weight: 100;
     text-align: center;
+    //font-family: 'GothamPro-Regular';
     &__item{
       display: inline-block;
       margin: 0 5px;
@@ -92,7 +93,7 @@
     &__btn{
       display: inline-block;
       font-size: 20px;
-      font-family: 'gotham pro';
+      font-family: 'GothamPro-Medium';
       font-weight: 500;
       padding: 10px 33px;
       margin-right: 20px;
