@@ -40,10 +40,15 @@
     text-transform: uppercase;
     margin-bottom: 17px;
     transition: ease .3s;
-    &:hover {
-      color: #8E98A7;
-      border: 2px solid #8E98A7;
-      background-color: #E8E8E8;
+    //&:hover {
+    //  color: #8E98A7;
+    //  border: 2px solid #8E98A7;
+    //  background-color: #E8E8E8;
+    //}
+    &:hover{
+      color: #B2985E;
+      //border: 2px solid #23527c;
+      background-color: white;
     }
   }
   //.contact{

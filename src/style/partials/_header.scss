@@ -186,6 +186,7 @@
   }
   .header__nav{
     width: 100%;
+    min-width: 0;
   }
 }
 @media (max-width: 1100px){
