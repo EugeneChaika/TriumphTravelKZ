@@ -71,22 +71,6 @@
     //  width: 78%;
     //}
   }
-  @media (max-width: 500px){
-    .hottours__name{
-      font-size: 20px;
-    }
-    .hottours__price{
-      width: 100%;
-      float: none;
-      font-size: 20px;
-    }
-    .hottours__location{
-      font-size: 16px;
-    }
-    .hottours__date{
-      font-size: 20px;
-    }
-  }
   @media (max-width: 992px){
     //.hottours__price{
     //  width: 100%;
@@ -96,6 +80,27 @@
     .hottours__card{
       width: 70%;
       max-width: 600px;
+    }
+  }
+  @media (max-width: 500px){
+    .hottours__card{
+      width: 100%;
+      min-width: 0;
+      margin: 0 0 50px;
+    }
+    .hottours__name{
+      font-size: 20px;
+    }
+    .hottours__price{
+      //width: 100%;
+      //float: none;
+      font-size: 20px;
+    }
+    .hottours__location{
+      font-size: 16px;
+    }
+    .hottours__date{
+      font-size: 20px;
     }
   }
 }
