@@ -1,14 +1,5 @@
-/*
- * Third party
- */
 //= ../libs/jquery/dist/jquery.js
 //= ../libs/OwlCarousel2/dist/owl.carousel.min.js
-
-
-/*
- * Custom
- */
-//= partials/app.js
 $(document).ready(function () {
     // var vid = document.getElementById("bgvid");
     // if (window.matchMedia('(prefers-reduced-motion)').matches) {
@@ -38,9 +29,4 @@ $(document).ready(function () {
     });
 
 });
-
-$(function () {
-
-    // Custom JS
-
-});
+//= partials/app.js
