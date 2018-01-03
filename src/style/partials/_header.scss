@@ -21,8 +21,12 @@
 
   &__logo{
     display: inline-block;
-    height: 65px;
+    //height: 65px;
     margin: 0 10px;
+    .logo-block{
+      width: 172.93px;
+      //height: 64px;
+    }
     img{
       width: 173px;
     }
@@ -120,7 +124,12 @@
       display: inline-block;
       text-align: center;
       .icon-block{
-        display: flex;
+        //display: flex;
+        height: 32px;
+        width: 32px;
+        .cls-1{
+          stroke: white;
+        }
       }
     }
   }

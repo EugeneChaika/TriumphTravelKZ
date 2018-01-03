@@ -58,6 +58,15 @@
   &.icon-letter{
     @include sprite($icon-png21);
   }
+  &.icon-diamond{
+    @include sprite($icon-png25);
+  }
+  &.icon-safe{
+    @include sprite($icon-png26);
+  }
+  &.icon-timer{
+    @include sprite($icon-png27);
+  }
 
 
 }

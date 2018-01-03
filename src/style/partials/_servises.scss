@@ -4,7 +4,7 @@
   &__title{
     font-family: "RobotoSlab-bold";
     font-size: 48px;
-    color: #333366;
+    color: $dark-blue;
     margin-bottom: 115px;
   }
   &__list{
@@ -24,7 +24,7 @@
     font-family: "GothamPro-Medium";
     font-size: 20px;
     font-weight: 500;
-    color: #333366;
+    color: $dark-blue;
     width: 210px;
   }
   .icon-block{
