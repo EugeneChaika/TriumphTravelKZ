@@ -157,6 +157,28 @@
   //.hamburger{
   //  display: none;
   }
+  @media (min-width: 1700px) {
+    .header__phones__item{
+      display: block;
+    }
+    .header.container{
+      justify-content: space-between;
+    }
+    .header__top{
+      justify-content: flex-end;
+      width: auto;
+    }
+    .header__phones{
+      padding-right: 30px;
+    }
+    .header__down{
+      width: 65%;
+      justify-content: space-between;
+      .header__nav{
+        width: auto;
+      }
+    }
+  }
   @media (max-width: 1700px) {
     .header {
       flex-direction: column;

@@ -4,6 +4,7 @@
   width: 100%;
 //
   .services-list{
+    position: relative;
     border-right: 1px solid silver;
     height: 100%;
     span{
@@ -177,6 +178,13 @@
       }
       .rolldown{
         display: block;
+        position: absolute;
+        padding: 15px 20px ;
+        width: 100%;
+        //margin-right: 20px;
+        background: white;
+        border: $accent 2px solid;
+        z-index: 1;
       }
       #services-dropdown{
         display: inline-block;
