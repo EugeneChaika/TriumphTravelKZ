@@ -101,10 +101,18 @@
   //    font-weight: 100;
   //    text-align: center;
   //    //font-family: 'GothamPro-Regular';
-  //    &__item{
+      &__item{
+        &:hover{
+          a{
+            color: $accent;
+          }
+        }
+        a{
+          color: black;
+        }
   //      display: inline-block;
   //      margin: 0 5px;
-  //    }
+      }
     }
   //
     &__ask{
