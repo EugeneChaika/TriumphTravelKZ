@@ -76,6 +76,18 @@
   &.icon-calendar{
     @include sprite($icon-png30);
   }
+  &.icon-clock{
+    @include sprite($icon-png34);
+  }
+  &.icon-food{
+    @include sprite($icon-png31);
+  }
+  &.icon-plane{
+    @include sprite($icon-png32);
+  }
+  &.icon-hotel{
+    @include sprite($icon-png33);
+  }
 
 
 }

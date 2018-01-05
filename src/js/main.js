@@ -21,16 +21,15 @@ $(document).ready(function () {
 
 
     $("#services-dropdown").on('click', function () {
-        console.log('dryaaa');
         $('#myTab').toggleClass('rolldown');
     });
+
     $(".nav-link").on('click', function () {
-        console.log('dratuti');
         $('#myTab').toggleClass('rolldown');
     });
 
 
-    // $("#ex2").slider({});
+
     function setPriceRange(){
         var s = $("#priceRange").bootstrapSlider();
 
@@ -40,6 +39,5 @@ $(document).ready(function () {
             });
         }
     }
-
     setPriceRange();
 });
