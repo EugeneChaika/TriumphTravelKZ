@@ -1,14 +1,4 @@
-//= ../libs/jquery/dist/jquery.js
-//= ../libs/OwlCarousel2/dist/owl.carousel.min.js
-;$(document).ready(function () {
-    // var vid = document.getElementById("bgvid");
-    // if (window.matchMedia('(prefers-reduced-motion)').matches) {
-    //     vid.removeAttribute("autoplay");
-    //     vid.pause();
-    //     pauseButton.innerHTML = "Paused";
-    // }
-    $(".cross").hide();
-    $(".menu").hide();
+$(document).ready(function () {
     $(".hamburger").click(function () {
         $(".menu").slideToggle("slow", function () {
             $(".hamburger").hide();
@@ -23,10 +13,13 @@
         });
     });
 
+
     $(".mouse a").on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
     });
+
+
     $("#services-dropdown").on('click', function () {
         console.log('dryaaa');
         $('#myTab').toggleClass('rolldown');
@@ -34,10 +27,19 @@
     $(".nav-link").on('click', function () {
         console.log('dratuti');
         $('#myTab').toggleClass('rolldown');
-    })
+    });
 
 
+    // $("#ex2").slider({});
+    function setPriceRange(){
+        var s = $("#priceRange").bootstrapSlider();
+
+        if(s != undefined){
+            s.on("change", function (val) {
+                $('#actualValue').html('КЗТ ' + val.value.newValue[0] + 'т - ' + val.value.newValue[1] + 'т');
+            });
+        }
+    }
+
+    setPriceRange();
 });
-//= partials/app.js
-//= ../libs/bootstrap/dist/js/bootstrap.js
-

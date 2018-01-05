@@ -67,6 +67,15 @@
   &.icon-timer{
     @include sprite($icon-png27);
   }
+  &.icon-loop{
+    @include sprite($icon-png28);
+  }
+  &.icon-compass{
+    @include sprite($icon-png29);
+  }
+  &.icon-calendar{
+    @include sprite($icon-png30);
+  }
 
 
 }

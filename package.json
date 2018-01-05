@@ -26,5 +26,8 @@
     "owl.carousel": "^2.2.0",
     "rimraf": "^2.6.2",
     "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "bootstrap-slider": "^10.0.0"
   }
 }
