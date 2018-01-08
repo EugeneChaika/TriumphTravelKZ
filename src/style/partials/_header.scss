@@ -101,6 +101,7 @@
     display: inline-block;
 
     &__btn{
+      color: white;
       display: inline-block;
       font-size: 20px;
       font-family: 'GothamPro-Medium';
@@ -113,10 +114,14 @@
       line-height: 20px;
       text-align: center;
       transition: all ease .3s ;
+      background-color: transparent;
       &:hover{
         color: #B2985E;
         //border: 2px solid #23527c;
         background-color: white;
+      }
+      &:focus{
+        outline: none;
       }
     }
   }

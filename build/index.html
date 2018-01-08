@@ -26,7 +26,7 @@
             <li class="header__nav__item"><a href="../destination-page.html">Авиабилеты</a></li>
             <li class="header__nav__item"><a href="../tours-page.html">Туры</a></li>
             <li class="header__nav__item"><a href="../service-page.html">Партнерство</a></li>
-            <li class="header__nav__item"><a href="../contact-page.html">Контакты</a></li>
+            <li class="header__nav__item"><a href="../contact-page.html ">Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -37,7 +37,7 @@
         </div>
         <div class="interact">
           <div class="header__ask">
-            <a href="#" class="header__ask__btn">Задать вопрос</a>
+            <button class="header__ask__btn" data-toggle="modal" data-target="#exampleModalCenter">Задать вопрос</button>
           </div>
           <div class="header__language">
             <a href="#" class="header__language__btn">
@@ -437,6 +437,42 @@
       </div>
     
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="icon-block">
+          <i class="icon icon-cross"></i>
+        </div>
+      </button>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="contact">
+            <div class="title">Связь</div>
+            <div class="description">
+              Напишите ваш вопрос и мы свяжемся с вами в ближайшее время.
+            </div>
+            <div class="input-block">
+              <input type="text" placeholder="Имя">
+            </div>
+            <div class="input-block input-block--icon">
+              <input type="text" placeholder="Телефон">
+              <div class="icon-block">
+                <i class="icon icon-phone-gray"></i>
+              </div>
+            </div>
+            <div class="input-block input-block--icon">
+              <input type="text" placeholder="Email">
+              <div class="icon-block">
+                <i class="icon icon-letter-gray"></i>
+              </div>
+            </div>
+            <a href="javascript:void(0);" class="footer__btn">связаться</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Modal -->
+    
     <script src="js/libs.js"></script>
     <script src="js/main.js"></script>
 </body>

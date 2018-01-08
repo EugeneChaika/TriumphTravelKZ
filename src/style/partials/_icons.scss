@@ -88,6 +88,14 @@
   &.icon-hotel{
     @include sprite($icon-png33);
   }
-
+  &.icon-cross{
+    @include sprite($icon-png24);
+  }
+  &.icon-phone-gray{
+    @include sprite($icon-phone-gray);
+  }
+  &.icon-letter-gray{
+    @include sprite($icon-letter-gray);
+  }
 
 }
