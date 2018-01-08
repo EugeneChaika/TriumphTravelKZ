@@ -12,7 +12,10 @@
     width: 100%;
     height: 256px;
     background-image: url('../img/bg_tours-1.png');
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 14px;
     margin-bottom: 10px;
   }
@@ -26,6 +29,23 @@
     border-radius: 100%;
     background-position: center;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
+    &:before{
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(50,50,50,.4);
+      z-index: 0;
+    }
+    span{
+      position: relative;
+      z-index: 1;
+    }
   }
   .destinations{
     margin: 40px auto 70px;

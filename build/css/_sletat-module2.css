@@ -1,0 +1,268 @@
+.module-form {
+    background-color: #EFEADF;
+    border: none;
+    border-radius: 3px;
+    color: #333366;
+    padding-bottom: 5px;
+}
+
+.module-form_result-page {
+    border: 0;
+    background-color: #00544f
+}
+
+.module-form__pl {
+    background-color: #B2985E;
+    box-shadow: none;
+    border-color: transparent;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.module-label {
+    color: #333366;
+    font-family: 'GothamPro-Medium';
+    font-size: 14px;
+}
+
+.justify-field__item_departure .module-label, .justify-field__item_direction .module-label, .justify-field__item_nights .module-label {
+    color: #fff
+}
+
+.justify-field__item_departure .module-form-select, .justify-field__item_direction .module-form-select, .justify-field__item_nights .module-form-select {
+    border-color: transparent
+}
+
+.button {
+    background-color: #89A6FB;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'GothamPro-Medium';
+    font-size: 20px;
+}
+
+.human-list__item:before {
+    color: #B2985E
+}
+
+.field-from__city {
+    border-bottom-style: dotted;
+    color: #333366;
+}
+
+.field-from__select:after {
+    color: #333366;
+}
+
+.human-list__year {
+    color: #438865
+}
+
+.tag-search {
+    border-color: #B2985E;
+    color: #333366;
+    background-color: transparent;
+}
+
+.btn {
+    text-transform: uppercase
+}
+
+.btn_main, .btn_main:hover, .styled-button, .styled-button:hover, .tours-in-this-hotel_button, .tours-in-this-hotel_button:hover {
+    background-color: #feae00;
+    background-image: linear-gradient(to bottom, #ffb719 0, #f59600 100%);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+    color: #fff
+}
+
+.additional-filter-group__header, .block-info_link, .btn_middle-link, .hotel-options__link, .pagination__page:not([class*='_current']), .price-range__num, .search-result__header, .search-result__hotel-short-description .hotel-price__number_no-discount {
+    color: #00544f
+}
+
+.search-result-link {
+    border-color: #feae00
+}
+
+.additional-filter:after {
+    border-color: transparent transparent #ebdaad
+}
+
+.additional-filter__wrapper {
+    background-color: #ebdaad;
+    border: 1px solid #ebdaad;
+    color: #333
+}
+
+.styled-radio_checked:after {
+    background: #00544f
+}
+
+.styled-checkbox:before {
+    color: #00544f
+}
+
+.tours-list__item a:hover {
+    border-color: #00544f
+}
+
+.tours-list__item a:hover .tours-list-description:before, .tours-list__item a:hover:before {
+    color: #00544f
+}
+
+.additional-filter-group__total-selected {
+    color: #9797a6
+}
+
+.values__item_selected:before, .values__value {
+    color: #00544f
+}
+
+.values_calendars .values__item_selected, .values_nights .values__item_selected {
+    background: #c6dbd0
+}
+
+.values__item_selected.values__item_end, .values__item_selected.values__item_end:hover, .values__item_selected.values__item_start, .values__item_selected.values__item_start:hover {
+    background: #00544f
+}
+
+.calendars__month {
+    color: #00544f
+}
+
+.values__item_selected.values__item_end:after, .values__item_selected.values__item_end:hover:after, .values__item_selected.values__item_start:after, .values__item_selected.values__item_start:hover:after {
+    color: #00544f;
+    background: #c6dbd0
+}
+
+.calendars__next:before, .calendars__prev:before {
+    color: #00544f
+}
+
+.range__line {
+    background-color: #00544f
+}
+
+.search-extended {
+    background-color: #ebdaad;
+    color: #313140
+}
+
+@media (max-width: 768px) {
+    .additional-filter {
+        background-color: #ebdaad
+    }
+
+    .additional-filter__wrapper {
+        border-bottom-color: #00544f
+    }
+
+    .result-popup .close-popup:after {
+        color: #00544f
+    }
+}
+
+.clip, .open-add-options {
+    color: #B2985E
+}
+
+.result-page .clip, .result-page .open-add-options {
+    color: #fff
+}
+
+#form-order .header-bttn {
+    background-color: #00544f;
+    color: #fff
+}
+
+#form-order .button-order, #form-order .button-send {
+    color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+    background-color: #feae00;
+    background-image: linear-gradient(to bottom, #ffb719 0, #f59600 100%)
+}
+
+#form-order .button-send {
+    color: #fff;
+    background-color: #feae00;
+    background-image: linear-gradient(to bottom, #ffb719 0, #f59600 100%);
+    text-shadow: none
+}
+
+.module-label__tooltip-icon {
+    background-color: #fff;
+    color: #00544f
+}
+
+.human-list__item_child:before, .human-list__item_child:hover:before {
+    left: 0;
+    right: 0;
+    text-align: center
+}
+
+.compare-result__link-tour {
+    color: #00544f
+}
+
+.compare-result__button {
+    background-color: #feae00;
+    color: #fff
+}
+
+.page-compare__nav {
+    background-color: #00544f;
+    color: #fff
+}
+
+.page-compare__next:before, .page-compare__prev:before {
+    border-color: #fff
+}
+
+.page-compare__control-item {
+    color: #00544f
+}
+
+.page-compare .message-problems__controls .button {
+    background-color: #feae00;
+    background-image: linear-gradient(to bottom, #ffb719 0, #f59600 100%);
+    color: #fff
+}
+
+.compare-hint__link {
+    background-color: #00544f;
+    color: #fff
+}
+
+.tabs {
+    color: #00544f
+}
+
+.tabs__item_active {
+    background: #00544f;
+    border-color: #00544f
+}
+
+.add-compare, .add-compare:active, .add-compare:focus, .privacy-policy-notice-block a {
+    color: #00544f
+}
+.field-from__label_large{
+    color: #333366;
+}
+.module-form-select:after{
+    color: #B2985E;
+}
+.module-form-select{
+    font-family: 'GothamPro-Medium';
+    font-size: 13px;
+}
+.clip__link{
+    border-bottom: 1px solid;
+}
+.module-form-input-text, .module-form-select{
+    border: transparent;
+    border-radius: 2px;
+}

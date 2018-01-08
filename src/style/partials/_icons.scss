@@ -97,5 +97,8 @@
   &.icon-letter-gray{
     @include sprite($icon-letter-gray);
   }
+  &.icon-menu{
+    @include sprite($icon-png1);
+  }
 
 }
