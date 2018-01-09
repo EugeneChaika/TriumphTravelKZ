@@ -26,6 +26,7 @@
     //border-bottom: 2px solid $accent;
     padding-top: 20px;
     a{
+      position: relative;
       font-family: 'GothamPro-Medium';
       font-size: 24px;
       display: inline-block;
@@ -34,6 +35,7 @@
       text-align: center;
       line-height: 1.2;
       padding-bottom: 32px;
+      z-index: 1;
     }
     .active{
       border-bottom: 8px solid $accent;
@@ -46,6 +48,7 @@
       top: 2px;
       left: -100%;
       border-bottom: 2px solid $accent;
+      z-index: 0;
     }
   }
   .tour-card{
@@ -281,6 +284,9 @@
     }
   }
   @media (max-width: 768px) {
+    .tour-search{
+      width: 100%;
+    }
     .tour-card{
       width: 100%;
     }

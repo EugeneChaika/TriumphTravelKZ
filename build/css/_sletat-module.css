@@ -1,7 +1,14 @@
+@font-face {
+    font-family: GothamPro-Medium;
+    src: url("../fonts/GothamPro/GothaProReg.woff") format("woff"),
+    url("../fonts/GothamPro/GothaProReg.otf") format("otf"),
+    url("../fonts/GothamPro/GothaProReg.ttf") format("ttf");
+}
+
 .module-form {
     background-color: #EFEADF;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     color: #333366;
     padding-bottom: 5px;
 }
@@ -249,20 +256,41 @@
 .add-compare, .add-compare:active, .add-compare:focus, .privacy-policy-notice-block a {
     color: #00544f
 }
-.field-from__label_large{
+
+.field-from__label_large {
     color: white;
 }
-.module-form-select:after{
+
+.module-form-select:after {
     color: #B2985E;
 }
-.module-form-select{
+
+.module-form-select {
     font-family: 'GothamPro-Medium';
     font-size: 13px;
 }
-.clip__link{
+
+.clip__link {
     border-bottom: 1px solid;
 }
-.module-form-input-text, .module-form-select{
+
+.module-form-input-text, .module-form-select {
     border: transparent;
     border-radius: 2px;
+}
+
+.tag-search:after {
+    top: 1px;
+}
+
+#field-direction .module-form-select {
+    padding-top: 9px;
+}
+
+.js-search-form-container {
+    padding: 0 5px 10px;
+}
+
+.module-form {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
 }

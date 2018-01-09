@@ -121,6 +121,11 @@
       width: 225px;
       height: 225px;
     }
+    .content-block{
+      input{
+        width: 100%;
+      }
+    }
   }
   @media (min-width: 1700px){
     .container {
@@ -131,11 +136,7 @@
     .img-block{
       //display: none;
     }
-    .content-block{
-      input{
-        width: 100%;
-      }
-    }
+
     .services-list{
       li{
         font-size: 16px;

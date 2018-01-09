@@ -99,9 +99,9 @@
   @media (max-width: 1200px) {
   }
   @media (max-width: 992px) {
-  }
-  @media (max-width: 768px) {
     .service-item{
+      display: flex;
+      flex-direction: column;
       &--left{
         .service-btn-block{
           text-align: center;
@@ -109,8 +109,30 @@
       }
       .service-btn-block{
         text-align: center;
+        order: 4;
+      }
+      .img-block{
+        order: 1;
+        margin-bottom: 50px;
+        margin-top: 0;
+      }
+      span{
+        order: 2;
+      }
+      p{
+        order: 3;
+      }
+      &--left{
+        span{
+          text-align: left;
+        }
+        p{
+          text-align: left;
+        }
       }
     }
+  }
+  @media (max-width: 768px) {
   }
   @media (max-width: 576px) {
     .service-item{
@@ -125,14 +147,6 @@
       .btn{
         width: 100%;
         padding: 13px 20px;
-      }
-      &--left{
-        span{
-          text-align: left;
-        }
-        p{
-          text-align: left;
-        }
       }
     }
   }
