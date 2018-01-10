@@ -36,7 +36,7 @@
     justify-content: center;
     min-width: 768px;
     width: 100%;
-    &__item {
+    li {
       position: relative;
       font-size: 18px;
       font-family: 'GothamPro-Medium';
@@ -264,11 +264,11 @@
     margin: 2px 25px 2px;
     padding: 7px 25px 4px;
   }
-  .header__nav__item:after {
+  .header__nav li:after {
     margin: 0 30px;
   }
   @media (max-width: 1220px) {
-    .header__nav__item:after {
+    .header__nav li:after {
       margin: 0 20px;
     }
   }
@@ -282,7 +282,7 @@
     }
   }
   @media (max-width: 1100px) {
-    .header__nav__item:after {
+    .header__nav li:after {
       margin: 0 10px;
     }
   }

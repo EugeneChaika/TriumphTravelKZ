@@ -29,7 +29,7 @@
     }
 
     &__nav {
-      &__item {
+      li {
         a {
           color: black;
           &:hover {
@@ -142,12 +142,12 @@
       font-size: 18px;
       margin: 2px 25px;
     }
-    .header__nav__item:after {
+    .header__nav li:after {
       margin: 0 20px;
     }
   }
   @media (max-width: 1200px) {
-    .header__nav__item:after {
+    .header__nav li:after {
       margin: 0 10px;
     }
   }
@@ -159,7 +159,7 @@
       width: 100%;
       min-width: 0;
     }
-    .header__nav__item:after {
+    .header__nav li:after {
       margin: 0 5px;
     }
   }
