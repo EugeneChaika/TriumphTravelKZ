@@ -175,7 +175,7 @@
       top: 200%;
       background-color: white;
       border: 1px solid $accent;
-      padding: 20px;
+      padding: 20px 20px 0;
       font-family: 'GothamPro-Medium';
       font-size: 18px;
       right: 0;
@@ -187,9 +187,6 @@
         transition: .3s ease;
         &:hover{
           color: $accent;
-        }
-        &:last-child{
-          padding-bottom: 0;
         }
       }
     }
