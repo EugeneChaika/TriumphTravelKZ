@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5413015c-bdc0-41c8-b30a-bdcc014d406f" name="travel.efection.biz" url="http://svh2.mirohost.net">
+      <webServer id="3660a36a-1df3-4437-a22b-0bddd8c3afe1" name="Host_for_Layour_TTKZ" url="http://travel.efection.biz">
         <fileTransfer host="svh2.mirohost.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
