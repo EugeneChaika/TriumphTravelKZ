@@ -21,11 +21,9 @@
 
   &__logo {
     display: inline-block;
-    //height: 65px;
     margin: 0 10px;
     .logo-block {
       width: 172.93px;
-      //height: 64px;
     }
     img {
       width: 173px;
@@ -84,7 +82,6 @@
     font-size: 20px;
     font-weight: 100;
     text-align: center;
-    //font-family: 'GothamPro-Regular';
     &__item {
       &:hover {
         a {
@@ -117,7 +114,6 @@
       background-color: transparent;
       &:hover {
         color: #B2985E;
-        //border: 2px solid #23527c;
         background-color: white;
       }
       &:focus {
@@ -130,12 +126,49 @@
     display: inline-block;
     margin: 0 5px;
     display: flex;
-    //line-height: 65px;
+    position: relative;
+    label{
+      margin-bottom: 0;
+      cursor: pointer;
+      height: 32px;
+    }
+    #toggle {
+      display: none;
+      &:checked{
+        & ~ .lng{
+          display: block;
+        }
+      }
+    }
+    .lng{
+      display: none;
+      position: absolute;
+      top: 200%;
+      background-color: white;
+      border: 1px solid $accent;
+      padding: 20px;
+      font-family: 'GothamPro-Medium';
+      font-size: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      &-item{
+        display: inline-block;
+        width: 100%;
+        color: black;
+        padding-bottom: 8px;
+        transition: .3s ease;
+        &:hover{
+          color: $accent;
+        }
+        &:last-child{
+          padding-bottom: 0;
+        }
+      }
+    }
     &__btn {
       display: inline-block;
       text-align: center;
       .icon-block {
-        //display: flex;
         height: 32px;
         width: 32px;
         .cls-1 {
@@ -270,7 +303,6 @@
       right: 0;
       margin: 15px 15px 0px;
       border: 0;
-      //font-weight: bold;
       cursor: pointer;
       outline: none;
       z-index: 10000000000000;
