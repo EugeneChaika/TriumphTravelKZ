@@ -87,6 +87,14 @@
     position: relative;
     z-index: 1;
   }
+  .mouse--white{
+    .cls-1 {
+      fill: none;
+      stroke: white;
+      stroke-miterlimit: 10;
+      stroke-width: 2px;
+    }
+  }
 }
 
 @media (max-width: 1100px) {
